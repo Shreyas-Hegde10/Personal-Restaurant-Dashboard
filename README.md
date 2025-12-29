@@ -52,8 +52,7 @@ Rather than relying on pre-existing datasets, all data is **collected programmat
 ### Phase 1: Data Collection (In Progress)
 - [x] Set up Google Maps Places API
 - [x] Fetch nearby restaurants using latitude & longitude
-- [x] Handle pagination to collect >20 results
-- [] Filter restaurants with rating ≥ 4.0
+- [x] Handle grid search to collect >20 results
 - [ ] Save cleaned data to CSV / JSON
 
 ---
