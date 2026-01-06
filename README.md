@@ -34,16 +34,13 @@ Rather than relying on pre-existing datasets, all data is **collected programmat
 ##  Dataset Scope
 
 - Restaurants within **5 km of my location**
-- Minimum rating: **4.0**
 - Fields collected:
   - Name
   - Rating
   - Total number of reviews
-  - Cuisine / category
+  - Serves vegetarian food
   - Address
-  - Latitude & longitude
-  - Price level (if available)
-  - Delivery/takeout availability (if available)
+  - Price range
 
 ---
 
