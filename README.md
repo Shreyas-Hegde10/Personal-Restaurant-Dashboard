@@ -53,7 +53,7 @@ Rather than relying on pre-existing datasets, all data is **collected programmat
 - [x] Set up Google Maps Places API
 - [x] Fetch nearby restaurants using latitude & longitude
 - [x] Handle grid search to collect >20 results
-- [ ] Save cleaned data to CSV / JSON
+- [X] Save cleaned data to CSV / JSON
 
 ---
 
