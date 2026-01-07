@@ -59,8 +59,7 @@ Rather than relying on pre-existing datasets, all data is **collected programmat
   - `restaurants`
   - `locations`
   - `ratings`
-- [ ] Import API data into SQL database
-- [ ] Normalize data to reduce redundancy
+- [x] Import API data into SQL database
 - [ ] Write analytical SQL queries:
   - Average rating by cuisine
   - Restaurant density by area
