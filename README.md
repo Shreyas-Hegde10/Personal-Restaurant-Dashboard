@@ -55,11 +55,10 @@ Rather than relying on pre-existing datasets, all data is **collected programmat
 ---
 
 ### Phase 2: Database Design & SQL
-- [ ] Design relational database schema
+- [X] Design relational database schema
   - `restaurants`
   - `locations`
   - `ratings`
-  - `categories`
 - [ ] Import API data into SQL database
 - [ ] Normalize data to reduce redundancy
 - [ ] Write analytical SQL queries:
