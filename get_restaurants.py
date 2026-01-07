@@ -118,4 +118,4 @@ def get_restaurants_grid(api_key, center_lat, center_lng):
         
 
 # Brampton Center Coordinates
-get_restaurants_grid(places_api_key, home_lat, home_lng)
+get_restaurants_grid(places_api_key,home_lat,home_lng)
