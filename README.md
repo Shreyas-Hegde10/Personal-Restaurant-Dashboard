@@ -60,21 +60,11 @@ Rather than relying on pre-existing datasets, all data is **collected programmat
   - `locations`
   - `ratings`
 - [x] Import API data into SQL database
-- [ ] Write analytical SQL queries:
+- [X] Write analytical SQL queries:
   - Average rating by cuisine
   - Restaurant density by area
   - Rating vs. price level
   - Top-rated restaurants by review count
-
----
-
-### Phase 3: Data Analysis & Insights
-- [ ] Validate and clean missing or inconsistent data
-- [ ] Identify trends in ratings and cuisine popularity
-- [ ] Compare delivery vs. non-delivery ratings
-- [ ] Prepare SQL views for visualization tools
-
----
 
 ### Phase 4: Visualization (Tableau / Power BI)
 - [ ] Connect BI tool to SQL database
