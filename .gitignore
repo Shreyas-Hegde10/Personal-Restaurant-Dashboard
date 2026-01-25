@@ -1,2 +1,5 @@
 #Ignore the environment variables file 
-project.env
+project.env 
+*.sqlite
+*.sqlite3
+*.sqbpro

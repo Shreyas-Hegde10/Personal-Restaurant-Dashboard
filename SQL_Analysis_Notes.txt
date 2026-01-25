@@ -1,0 +1,64 @@
+SQL Analysis Notes 
+- 70/109(64.2% of restaurants serve vegetarian with the rest having no information) 
+- Average rating of vegetarian restaurants: 4.23 stars 
+- Average rating of restaurants with no information: 4.26 stars 
+- Average # of reviews for vegetarian restaurants: 2192 per restaurant  
+- Average # of reviews for restaurants with no info: 1138 per restaurant 
+- View of rating distribution(4.4 stars was the the most common rating) 
+5	1
+4.8	5
+4.7	2
+4.6	8
+4.5	5
+4.4	12
+4.3	5
+4.2	5
+4.1	4
+4	5
+3.9	5
+3.8	3
+3.7	4
+3.6	2
+3.5	2
+3.3	1
+3.2	1
+
+- View of Price range distribution for vegetarian restaurants 
+NULL		16
+CAD 1-10	8
+CAD 1-20	1
+CAD 10-20	32
+CAD 10-30	9
+CAD 100-	2
+CAD 20-30	2
+
+
+- View of price range distribution for non-vegetarian restaurants 
+NULL		13
+CAD 10-20	19
+CAD 10-30	3
+CAD 20-30	2
+CAD 30-50	1 
+
+- Most popular vegetarian restaurants based on # of reviews 
+
+Rajdhani Indian Sweets & Restaurant (Chinguacousy)	15217	4.5	CAD 10-30
+Desi Bar & Grill (Brampton)- Indian food done right!	12098	4.8	NULL
+Sardar Ji						9078	4.4	NULL
+Desi Road - Fletchers Creek				5211	4.5	NULL
+Annalakshmi Hwy10 - South Indian Vegetarian Restaurant	4965	4.1	CAD 10-20
+Nando's PERi-PERi					4794	4.3	CAD 10-30
+Kelseys Original Roadhouse				4707	4.6	NULL
+Lazeez Shawarma						4327	4.3	CAD 10-20
+Delhi Momos - Downtown Brampton				4319	4.8	CAD 10-20
+Railway Chai and Snack House				4081	4.6	CAD 10-20
+
+- Vegetarian restaurants had an average weighted sum of 4.37 stars while non-info ones had 4.28 stars
+
+
+
+
+
+
+
+ 
