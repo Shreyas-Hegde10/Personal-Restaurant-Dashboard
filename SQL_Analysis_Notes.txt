@@ -55,6 +55,60 @@ Railway Chai and Snack House				4081	4.6	CAD 10-20
 
 - Vegetarian restaurants had an average weighted sum of 4.37 stars while non-info ones had 4.28 stars
 
+SQL QUERIES 
+SELECT AVG(UserRatingCount) 
+FROM restaurants 
+WHERE ServesVegetarianFood=1 
+	AND UserRatingCount IS NOT NULL;
+
+SELECT AVG(UserRatingCount) 
+FROM restaurants 
+WHERE ServesVegetarianFood=1 
+	AND UserRatingCount IS NULL;
+
+SELECT Rating, COUNT(*) AS count
+FROM restaurants
+WHERE ServesVegetarianFood=1
+GROUP BY Rating
+ORDER BY Rating DESC;
+
+SELECT PriceRange, COUNT(*) AS count
+FROM restaurants
+WHERE ServesVegetarianFood=1
+GROUP BY PriceRange
+ORDER BY PriceRange DESC; 
+
+SELECT PriceRange, COUNT(*) AS count
+FROM restaurants
+WHERE ServesVegetarianFood=0
+GROUP BY PriceRange
+ORDER BY PriceRange DESC; 
+
+SELECT Display_Name,User_Rating_Count, Rating, PriceRange
+FROM restaurants
+WHERE Serves_Vegetarian_Food='True'
+ORDER BY User_Rating_Count, Rating, PriceRange DESC
+LIMIT 10;
+
+
+SELECT DisplayName,UserRatingCount, Rating, PriceRange
+FROM restaurants
+WHERE ServesVegetarianFood=1
+	AND UserRatingCount > 500
+	AND Rating IS NOT NULL
+ORDER BY UserRatingCount DESC, Rating DESC, PriceRange DESC
+LIMIT 10;
+
+SELECT
+    ROUND(
+        SUM(Rating * UserRatingCount) * 1.0 / 
+        SUM(UserRatingCount),
+    2) AS weighted_avg_veg_rating
+FROM restaurants
+WHERE ServesVegetarianFood is NULL
+  AND Rating IS NOT NULL
+  AND UserRatingCount IS NOT NULL;
+
 
 
 
