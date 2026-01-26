@@ -1,14 +1,12 @@
 # Personal Restaurant Dashboard
 
-A data analytics project that collects real-world restaurant data using the **Google Maps Places API**, stores and analyzes it using **SQL**, and visualizes insights through **Tableau / Power BI**.  
-The goal of this project is to demonstrate an **end-to-end data workflow** suitable for internship and early-career data roles.
-
+A data analytics project that collects real-world restaurant data using the **Google Maps Places API**, stores and analyzes it using **SQL**, and visualizes insights through **Power BI**. 
 ---
 
 ## Project Overview
 
-This project focuses on analyzing **high-rated restaurants (≥ 4.0 stars)** within a **5 km radius of Brampton, Ontario**.  
-Rather than relying on pre-existing datasets, all data is **collected programmatically** via APIs, cleaned, structured, queried, and visualized.
+This project focuses on analyzing vegetarian restaurants within a **5 km radius of my current location**.  
+Rather than relying on pre-existing datasets, all data was collected via the use of Google Maps Places API. 
 
 **Key Skills Demonstrated:**
 - API-based data collection
@@ -24,10 +22,9 @@ Rather than relying on pre-existing datasets, all data is **collected programmat
 
 - **Data Collection:** Google Maps Places API
 - **Programming Language:** Python
-- **Database:** PostgreSQL / SQLite
+- **Database:**  SQLite
 - **Data Analysis:** SQL
-- **Visualization:** Tableau or Power BI
-- **Version Control:** Git & GitHub
+- **Visualization:** Power BI
 
 ---
 
@@ -67,13 +64,12 @@ Rather than relying on pre-existing datasets, all data is **collected programmat
   - Top-rated restaurants by review count
 
 ### Phase 4: Visualization (Tableau / Power BI)
-- [ ] Connect BI tool to SQL database
-- [ ] Create visualizations:
+- [X] Connect BI tool to SQL database
+- [X] Create visualizations:
   - Bar charts (ratings by cuisine)
   - Maps (restaurant distribution)
   - Heatmaps (price vs. rating)
-- [ ] Add interactivity (filters, slicers, tooltips)
-- [ ] Build a polished dashboard for presentation
+- [X] Build a polished dashboard for presentation
 
 ---
 
@@ -83,7 +79,7 @@ Rather than relying on pre-existing datasets, all data is **collected programmat
   - Database structure
   - Key SQL queries
   - Analytical insights
-- [ ] Publish dashboard (Tableau Public / Power BI Service)
+- [ ] Publish dashboard (Power BI Service)
 - [ ] Finalize README and repository structure
 
 ---
